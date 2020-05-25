@@ -4,7 +4,7 @@
 
 
 upper =  {
-  \tempo 4 = 150
+  \tempo 4 = 150    
   \clef treble
   \time 3/4
 
@@ -19,8 +19,24 @@ upper =  {
   d'2.~
   d'2.~
   d'2.~
-  d'2.~
+  d'2.
   s2. s2. s2.  s2.
+  
+  r4 a8 bes <bes bes'>4~
+  
+   <bes bes'>8  <a' bes' d' ges'>4 g'8 \tuplet 3/2 { d' a aes  }
+   
+   g8   bes  <des' f'>4.  <c' ees'>8 
+   
+   ges   [aes]  <des' ees'>    [<c' ees'>]    <b ees'>  bes
+  
+  a8 bes <bes bes'>2~
+  
+   <bes bes'>8  <a' bes' d' ges'>4 g'8 \tuplet 3/2 { d' a aes }
+   
+   g8   bes  <des' f'>4.  <c' ees'>8 
+   
+   ges   aes  <des' ees'>    <c' ees'>    <b ees'>  bes 
   
 }
 
@@ -52,6 +68,8 @@ lower =  {
         r4 e2 
         r4 <f g a >2      
         r4 e2 
+        
+        
        
       }
       \new Voice {
@@ -70,12 +88,30 @@ lower =  {
          d,2 fis,4
          g,2~ g,8 ees,8 
          c,2~ c,8  fis,,8
-         g,,2 g, 8 dis,8 
-         c,2 ais,,4
+         g,,2 g, 8 ees,8 
+         c,2 bes,,4
          g,,2 g,8 dis,8 
-         c,2 ais,,4  
+         c,2 bes,,4  
          g,,2 g,8 dis,8 
-         c,2 ais,,4  
+         c,2 bes,,4  
+         
+         g,,2   \tuplet 3/2 { r8 f,  d,  }
+          
+         e,2.
+         
+         ees, 2  ees,4
+         
+         d,2  aes,,4
+         
+         g,,2   \tuplet 3/2 { r8 f,  d,  }
+          
+         e,2.
+         
+         ees, 2  ees,4
+         
+         d,2  aes,,4  
+          
+         
       }
     >>
     \oneVoice
